@@ -1035,7 +1035,7 @@
         display: flex;
         margin-top: -50px;
         .col-wap{
-              max-width: 20%;
+              max-width: 15%;
             .brief-services-wrap{
               position: relative;
                 padding: 20px 20px;
@@ -1051,7 +1051,7 @@
                     // background: red;
                     width: 80%;
                     margin: auto;text-align: center;
-                    h5{font-size: 13px;line-height: 17px;color:$color-3}
+                    h5{font-size: 13px;line-height: 17px;color:$color-3;text-transform: uppercase;}
                 }
                 &:after{
                     content: "";
@@ -1638,24 +1638,24 @@
      // z-index: 3;
      
  }
-// .first{
-//      // min-height: 200px;
-//      // background: red;
-//      .services-wrapper{
-//           display: flex;
-//          justify-content: center;
-//          align-items: center;
-//          .services-wrapper-content{
-//              h5{font-size: 23px; line-height: 23px;width: 80%;margin-bottom: 10px;font-weight: 700}
-//              .top{color:$bg-1}
-//              .bottom{color:$color-1}
-           
-//          }
-//          .services-wrapper-inner{
-//              border:3px solid #eee
-//          }
-//      }
-//       }
+ .first{
+  // min-height: 200px;
+  // background: red;
+  .services-wrapper{
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      .services-wrapper-content{
+          h5{font-size: 25px; line-height: 23px;width: 100%;margin-bottom: 10px;font-weight: 700}
+          .top{color:$bg-1}
+          .bottom{color:$color-1}
+        
+      }
+      .services-wrapper-inner{
+          border:3px solid #eee
+      }
+  }
+   }
     
     
      .services-wrapper{
@@ -1689,7 +1689,7 @@
                  
              }//icon
              .service-content{
-                 h6{color:$bg-1;
+                 h6{color:$bg-1;text-transform: uppercase;
                      margin-top: 20px
                  }
                  p{color:#aaa}

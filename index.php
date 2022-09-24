@@ -292,24 +292,26 @@ if(filter_has_var(INPUT_POST,'submit')){
 <div class="how_we_are">
 	<div class="container">
 		<div class=" brief-services">
-		<!--<div class="col-wap">-->
-		<!--      <div class="brief-services-wrap">-->
-		<!--		  <div class="icon">-->
-		<!--			<i class="demo-icon icon-sales"></i>-->
-		<!--		  </div>-->
-		<!--		  <div class="title">-->
-		<!--			  <h5>SALES AND MARKETING OUTSOURCING</h5>-->
-					  <!-- <h6></h6> -->
-		<!--		  </div>-->
-		<!--	  </div>-->
-		<!--	</div>-->
+
+		<div class="col-wap">
+		     <div class="brief-services-wrap">
+				  <div class="icon">
+					<i class="demo-icon icon-sales"></i>
+				  </div>
+				  <div class="title">
+					  <h5>Reporting & Analytics</h5>
+					  <h6></h6>
+				  </div>
+			  </div>
+			</div>
+
 			<div class="col-wap">
 		      <div class="brief-services-wrap">
 				  <div class="icon" style="margin-bottom:20px">
 					<div class="our-client-img"><img src="assets/img/home/hand.png" class="img-fluid" alt=""></div>
 				  </div>
 				  <div class="title">
-					  <h5>DEBT RECOVERY OUTSOURCING</h5>
+					  <h5>DEBT RECOVERY </h5>
 					   <h6></h6> 
 				  </div>
 			  </div>
@@ -321,44 +323,60 @@ if(filter_has_var(INPUT_POST,'submit')){
 					<i class="demo-icon icon-customer-service"></i>
 				  </div>
 				  <div class="title">
-					  <h5>CALL CENTER OUTSOURCING</h5>
+					  <h5>CALL CENTER Setup</h5>
 					   <h6></h6> 
 				  </div>
 			  </div>
 			</div>
-			<!--<div class="col-wap">-->
-		 <!--     <div class="brief-services-wrap">-->
-			<!--	  <div class="icon">-->
-			<!--		<i class="demo-icon icon-logistics"></i>-->
-			<!--	  </div>-->
-			<!--	  <div class="title">-->
-			<!--		  <h5>LOGISTICS OUTSOURCING</h5>-->
-					  <!-- <h6>OUTSOURCING</h6> -->
-			<!--	  </div>-->
-			<!--  </div>-->
-			<!--</div>-->
-			<!--<div class="col-wap">-->
-		 <!--     <div class="brief-services-wrap">-->
-			<!--	  <div class="icon">-->
-			<!--		<i class="demo-icon icon-hr"></i>-->
-			<!--	  </div>-->
-			<!--	  <div class="title">-->
-			<!--		  <h5>HUMAN RESOURCE OUTSOURCING</h5>-->
-					  <!-- <h6></h6> -->
-			<!--	  </div>-->
-			<!--  </div>-->
-			<!--</div>-->
-			<!--<div class="col-wap">-->
-		 <!--     <div class="brief-services-wrap last">-->
-			<!--	  <div class="icon">-->
-			<!--		<i class="demo-icon icon-heartbeat"></i>-->
-			<!--	  </div>-->
-			<!--	  <div class="title">-->
-			<!--		  <h5>OUTSOURCING HMO</h5>-->
-					  <!-- <h6>OUTSOURCING</h6> -->
-			<!--	  </div>-->
-			<!--  </div>-->
-			<!--</div>-->
+
+			<div class="col-wap">
+		     <div class="brief-services-wrap">
+				  <div class="icon">
+					<i class="demo-icon icon-logistics"></i>
+				  </div>
+				  <div class="title">
+					  <h5>Integrations</h5>
+					  <h6></h6>
+				  </div>
+			 </div>
+			</div>
+
+			<div class="col-wap">
+		     <div class="brief-services-wrap">
+				  <div class="icon">
+					<i class="demo-icon icon-hr"></i>
+				  </div>
+				  <div class="title">
+					  <h5>AI & Automation</h5>
+					  <h6></h6>
+				  </div>
+			 </div>
+			</div>
+
+			<div class="col-wap">
+		     <div class="brief-services-wrap ">
+				  <div class="icon">
+					<i class="demo-icon icon-heartbeat"></i>
+				  </div>
+				  <div class="title">
+					  <h5>Workforce Optimization</h5>
+					  <h6></h6>
+				  </div>
+			 </div>
+			</div>
+
+			<div class="col-wap">
+		     <div class="brief-services-wrap last">
+				  <div class="icon">
+					<i class="demo-icon icon-heartbeat"></i>
+				  </div>
+				  <div class="title">
+					  <h5>Omnichannel Platform</h5>
+					  <h6></h6>
+				  </div>
+			 </div>
+			</div>
+
 		</div>
 	</div>
 </div>
@@ -370,8 +388,12 @@ if(filter_has_var(INPUT_POST,'submit')){
 		<div class="row header-row">
 		      <div class="header">
 					<h5>Why Greensage Outsourcing Limited?</h5>
-					<p>With GREENSAGE OUTSOURCING LIMITED, you will  be able to cut spiraling cost and expand your business quicker. We offer flexible, adaptable and ready deals. We properly study your requirements and offer our professional support and instant solutions that will help you in the longer term. We have the right experience and innovative ideas to support you through the whole lifecycle of the project.
-							At Greensage Outsourcing Limited, we provide services for our client by working in line with our Core Values: T.A.P
+					<p>With GREENSAGE OUTSOURCING LIMITED, you will be able to
+							cut spiraling cost and expand your business quicker. We offer flexible, adaptable and ready deals.
+							We properly study your requirements and offer our professional support and instant solutions
+							that will help you in the longer term. We have the right experience and innovative ideas to
+							support you through the whole lifecycle of the project. At Greensage Outsourcing Limited, we
+							provide services for our client by working in line with our Core Values: T.A.P
 					</p>
 					    <!-- <p>We provide services for our client by working in line with our Core Values: T.A.P
 						</p> -->
@@ -581,10 +603,10 @@ if(filter_has_var(INPUT_POST,'submit')){
 <section id="greensage-outsourcing-services">
 
 	<div class="container">
-		<!--<div class="header-row">-->
-		<!--	<h4>Unmatched Services</h4>-->
-		<!--	<h5>Unmatched Excellence</h5>-->
-		<!--</div>-->
+		<!-- <div class="header-row">
+			<h4>Unmatched Services</h4>
+			<h5>Unmatched Excellence</h5>
+		</div> -->
 		<i class="demo-icon icon-greensage"></i>
 		<div class="row">
 		    <div class="col-md-4 col-sm-6 first">
@@ -595,41 +617,41 @@ if(filter_has_var(INPUT_POST,'submit')){
 					</div>	
 				</div>
 			</div> 
-			<!--<div class="col-md-4 col-sm-6">-->
-   <!--             <div class="services-wrapper">-->
-			<!--		<a href="sales-and-marketing-outsourcing.php">-->
-			<!--			<div class="services-wrapper-inner">-->
-			<!--				<div class="icon">-->
-			<!--				<i class="demo-icon icon-sales"></i>-->
-			<!--				</div>-->
-			<!--				<div class="service-content">-->
-			<!--					<h6>SALES AND MARKETING OUTSOURCING</h6>-->
-			<!--					<p>Working with our outsource Sales and Marketing team gives-->
-			<!--						you a competitive edge, because our team is solely dedicated -->
-			<!--						to producing sales results. We are able to work with laser -->
-			<!--						focus to build your pool of prospects,-->
-			<!--						and then convert them into leads and sales. </p>-->
-			<!--				</div>-->
-			<!--	    	</div>-->
-			<!--		</a>-->
+			<div class="col-md-4 col-sm-6">
+               <div class="services-wrapper">
+					<a href="sales-and-marketing-outsourcing.php">
+						<div class="services-wrapper-inner">
+							<div class="icon">
+							<i class="demo-icon icon-sales"></i>
+							</div>
+							<div class="service-content">
+								<h6>Omnichannel Platform</h6>
+								<p> Greensage Outsourcing enables customer experience through software
+									and integrations that helps companies provide a consistent customer satisfaction experience  </p>
+							</div>
+				    	</div>
+					</a>
 					
-			<!--	</div>-->
-			<!--</div>-->
-			<!--<div class="col-md-4 col-sm-6">-->
-   <!--             <div class="services-wrapper">-->
-			<!--	<a href="hr-outsourcing.php">-->
-			<!--		<div class="services-wrapper-inner">-->
-			<!--			<div class="icon">-->
-			<!--			<i class="demo-icon icon-hr"></i>-->
-			<!--			</div>-->
-			<!--			<div class="service-content">-->
-			<!--				<h6>HUMAN RESOURCE OUTSOURCING</h6>-->
-			<!--				<p>Greensage Outsourcing can save you time, money and stress. We Recruit experts who requires zero training to immediately jump in and provide you with anything from advanced policy development to administrative task. </p>-->
-			<!--			</div>-->
-			<!--		</div>-->
-			<!--	</a>-->
-			<!--	</div>-->
-			<!--</div>-->
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+               <div class="services-wrapper">
+				<a href="hr-outsourcing.php">
+					<div class="services-wrapper-inner">
+						<div class="icon">
+						<i class="demo-icon icon-hr"></i>
+						</div>
+						<div class="service-content">
+							<h6>Workforce Optimization</h6>
+							<p>Greensage Outsourcing proffers set of strategies and practices
+								through industry standards and quality management that aim to improve employee and
+								organizational efficiency, while decreasing operational costs through using data intelligence.
+								With an overall goal is to achieving the organizational success.</p>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
 			<div class="col-md-4 col-sm-6">
                 <div class="services-wrapper">
 					<a href="debts-recovery-outsourcing.php">
@@ -638,8 +660,12 @@ if(filter_has_var(INPUT_POST,'submit')){
 							<div class="our-client-img"><img src="assets/img/home/hand2.png" class="img-fluid" alt=""></div>
 							</div>
 							<div class="service-content">
-								<h6>Debt Recovery Outsourcing</h6>
-								<p>Debt recovery is essential for your organization to remain sustainable as it is an integral part of the cashflow cycle of the banking industry. If all that a bank does is give out loans with no guaranteed cash back strategy, then the accrued loss will ultimately be absolved by the bank which causes a major problem. </p>
+								<h6>Debt Recovery</h6>
+								<p> Debt recovery is essential for your organization to remain sustainable as it is an
+										integral part of the cashflow cycle of the banking industry. If all that a bank does is give out loans
+										with no guaranteed cash back strategy, then the accrued loss will ultimately be absolved by the
+										bank which causes a major problem.
+</p>
 							</div>
 				    	</div>
 					</a>
@@ -655,7 +681,7 @@ if(filter_has_var(INPUT_POST,'submit')){
 						<i class="demo-icon icon-customer-service"></i>
 						</div>
 						<div class="service-content">
-							<h6>CALL CENTER OUTSOURCING</h6>
+							<h6>CALL CENTER Setup</h6>
 							<p>Greensage  Call center Outsourcing is designed specially
 							 to manage your customer care operations with the help of our 
 							 professionals who have unique and exceptional skills in 
@@ -666,36 +692,62 @@ if(filter_has_var(INPUT_POST,'submit')){
 					</a>
 				</div>
 			</div>
-			<!--<div class="col-md-4 col-sm-6">-->
-   <!--             <div class="services-wrapper">-->
-			<!--	<a href="logistics-outsourcing.php">-->
-			<!--		<div class="services-wrapper-inner">-->
-			<!--			<div class="icon">-->
-			<!--			<i class="demo-icon icon-logistics"></i>-->
-			<!--			</div>-->
-			<!--			<div class="service-content">-->
-			<!--				<h6>LOGISTICS OUTSOURCING</h6>-->
-			<!--				<p>Our service takes away the boarding of searching for the best, affordable, reliable and fastest logistics off your shoulder. We liaise with the logistics company and carry out our research on how to serve you better in line with your needs.</p>-->
-			<!--			</div>-->
-			<!--		</div>-->
-			<!--		</a>-->
-			<!--	</div>-->
-			<!--</div>-->
-			<!--<div class="col-md-4 col-sm-6">-->
-   <!--             <div class="services-wrapper">-->
-			<!--		<a href="hmo-outsourcing.php">-->
-			<!--			<div class="services-wrapper-inner">-->
-			<!--				<div class="icon">-->
-			<!--				<i class="demo-icon icon-heartbeat"></i>-->
-			<!--				</div>-->
-			<!--				<div class="service-content">-->
-			<!--					<h6>OUTSOURCING HMO</h6>-->
-			<!--					<p>Greensage Outsourcing HMO have been created to give you access to quality healthcare services whenever you need it. We offer comprehensive list of HMO services to individuals and families as well as SME’s and large corporate organizations</p>-->
-			<!--				</div>-->
-			<!--			</div>-->
-			<!--		</a>-->
-			<!--	</div>-->
-			<!--</div>-->
+			<div class="col-md-4 col-sm-6">
+               <div class="services-wrapper">
+				<a href="logistics-outsourcing.php">
+					<div class="services-wrapper-inner">
+						<div class="icon">
+						<i class="demo-icon icon-logistics"></i>
+						</div>
+						<div class="service-content">
+							<h6>AI & Automation</h6>
+							<p>Greensage Outsourcing cognitive automation platform uses advanced
+								technologies – artificial intelligence (AI) to enable overall business process management (BPM),
+								and robotic process automation (RPA) – to streamline customer engagement, debt recovery and
+								scale decision-making across the organization.</p>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+	
+			<div class="col-md-4 col-sm-6">
+               <div class="services-wrapper">
+					<a href="hmo-outsourcing.php">
+						<div class="services-wrapper-inner">
+							<div class="icon">
+							<i class="demo-icon icon-heartbeat"></i>
+							</div>
+							<div class="service-content">
+								<h6>Integrations</h6>
+							<p>Seamless integration with various software is one of the key requirements of a
+								sustainable approach, to implement and that’s why we’ve made integrating with the Greensage
+								platform seamless. The platform has the ability to integrate with a variety of the world’s leading
+								software, from CRM, Call Center, Agent Management etc</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+               <div class="services-wrapper">
+					<a href="hmo-outsourcing.php">
+						<div class="services-wrapper-inner">
+							<div class="icon">
+							<i class="demo-icon icon-heartbeat"></i>
+							</div>
+							<div class="service-content">
+								<h6>Reporting & Analytics</h6>
+							<p>Reporting and Analytics Suite allows you to build your own customizable
+								reports to help you meet and manage your teams KPIs. Enabling segmentation of data by
+								demographics, industries, geography and more to spot trends and replicate success for optimized
+								decision</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
 		</div>
 	</div>
 </section>
