@@ -1,0 +1,285 @@
+// #hr-bullets-section{
+//     padding: 80px 0 80px;
+//     .image{
+//         position: relative;
+//         // background: red;
+//         img{
+//             margin-left: 20px;
+//             // display: block;margin: auto;
+            
+//         }
+//         &::before{
+//             // .img::after {
+//     position: absolute;
+//     bottom: -20px;
+//     right: -20px;
+//     width: 170px;
+//     height: 170px;
+//     content: " ";
+//     // background-color: rgba(255, 255, 255, 0);
+//     // background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='35' height='35' fill-opacity='0.78' fill='%23cccabe'/%3E%3C/svg%3E);
+   
+//             // z-index: -4;
+//     // transform: rotate(180deg);
+//             //    content:'';
+//             // background: url('asset/img/icon/bg-1.png');
+//             //     width: 100px;
+//             //     height: 150px;
+//             //     background: red;
+//             //     z-index: 577;
+//             //     position: absolute;
+//             //     bottom: -15px;
+//         } 
+//     }
+//     .content-main{
+//         display: flex;
+//         // justify-content: center;
+//         align-items: center;
+//         height: 100%;
+//         .content-inner{
+//             h2{color:$color-3;line-height: 30px;
+//             font-size: 22px; font-weight: 800;margin-bottom: 5px}
+//         .plist-head{color:$color-3;line-height: 19px;opacity: .8; width: 100%;margin-bottom: 10px}  
+//             .plist{
+//                 margin-bottom: 10px;
+//                 font-size: 14px;
+//                 display: flex;
+//                 text-align: baseline;
+//                 line-height: 19px;
+//                 // float: left;
+//                 i{color:$color-2;border:1px solid #eee;
+//                     padding: 3px;display: block;width: 20px;height: 20px;min-width: 20px;
+//                     margin-bottom: 3px;text-align: center;line-height: 16px;
+//                     margin-right: 5px;font-size: 12px;}
+//                     span{font-size: 13px}
+//             }  
+//         }
+     
+//     }
+
+// }
+
+#hr-how-it-works{
+    padding: 70px 0;
+    background: $bg-1;
+    .title{
+        margin-bottom: 20px;
+        h1{
+            display: inline-block;
+            position: relative;
+          font-size: 24px;
+            &::before{
+               content: '';
+               width:40%;
+                height: 4px;
+                background: $color-1;
+                position: absolute;
+                bottom: -8px;
+            }
+        }
+       
+        
+    }//title
+    
+    .how-it-work-content{
+        margin-bottom: 5px;
+        background: $color-3;
+        width: 96%;
+        padding: 10px 8px;
+        border-radius: 5px;
+        h5{color:#eee;margin-bottom: 5px}
+        p{color:$bg-1;opacity: .9;line-height: 17px;font-size: 14px}
+    }
+
+
+
+    
+}
+
+
+
+#hr-why-us{
+    padding: 80px 0;
+    .col-md-4{
+        .title-wrap{
+            background: $color-3;
+            height: 100%;
+            display: flex;justify-content: center;
+            align-items: center;text-align: center;
+            h3{color:$bg-1;margin-bottom: 20px}
+            p{color:$bg-1;margin-bottom: 20px;opacity: .8;width: 80%;margin: auto}
+        max-height: 70%;
+        }
+    }
+    
+    .main-content{
+        position: relative;
+        // background: pink;
+        .row{
+            .col-md-6.first{
+                margin-top: 50px;
+                // position: absolute;
+                // padding: 0;
+                .col-12{
+                    
+                      // box-shadow:$box-shadow;
+                     // padding: 0;
+                    margin: 10px;
+                     display: flex;justify-content: center;
+                    align-items: center;
+                 .content{
+                     text-align: center;
+                 box-shadow:$box-shadow;
+                    width:99%;
+                     padding: 20px 20px;
+                        p{line-height: 23px;font-size: 16px;color:$color-3}
+                    }   
+                }
+                
+            }  
+            .col-md-6.second{
+                // margin-top: 60px;
+                 // padding: 0;
+                .col-12{
+                     // padding: 0;
+                    margin: 10px;
+                    
+                     display: flex;justify-content: center;
+                    align-items: center;
+                 .content{
+                                text-align: center;
+                            box-shadow:$box-shadow;
+                            width:99%;
+                            padding: 20px 20px;
+                            p{line-height: 23px;font-size: 16px;color:$color-3}
+                            }   
+                }
+                
+            }
+        }
+        
+    }
+    
+}//logistic-why-us
+
+
+@media screen and (max-width: 766px) { 
+#hr-why-us{
+  padding: 40px 0;
+    // .row.col-md-10.offset-1{
+    //     min-width: 100%;
+    //     // width: 100%;
+    //     margin: 0;
+    // }
+  .col-md-4{
+      .title-wrap{
+          // background: $color-3;
+          display: block;
+          background: transparent;
+          margin-bottom: 10px;
+         max-height: 100%;
+          // height: 60%;
+          // display: flex;justify-content: center;
+          // align-items: center;text-align: center;
+          h3{color: $color-3;margin-bottom: 5px}
+          p{color: $color-3}
+      }
+  }
+  
+  .main-content{
+      // position: relative;
+      // background: pink;
+      .row{
+          .col-md-6.first{
+              margin-top: 0;
+              // position: absolute;
+              padding: 0;
+              // .col-12{
+              //       // box-shadow:$box-shadow;
+              //      padding: 0;
+              //     margin: 10px;
+              //      display: flex;justify-content: center;
+              //     align-items: center;
+              //  .content{
+              //      text-align: center;
+              //  box-shadow:$box-shadow;
+              //     width:79%;
+              //      padding: 20px 20px;
+              //         p{line-height: 23px;font-size: 16px;color:$color-3}
+              //     }   
+              // }
+              
+          }  
+          .col-md-6.second{
+              margin-top: 0px;
+               padding: 0;
+//               .col-12{
+//                    padding: 0;
+//                   margin: 10px;
+                  
+//                    display: flex;justify-content: center;
+//                   align-items: center;
+//                .content{
+//                       text-align: center;
+//                    box-shadow:$box-shadow;
+//                   width:79%;
+//                    padding: 20px 20px;
+//                    p{line-height: 23px;font-size: 16px;color:$color-3}
+//                   }   
+//               }
+              
+          }
+      }
+      
+  }
+  
+}//logistic-why-us
+
+
+
+}//end
+
+
+@media screen and (max-width: 550px) { 
+#hr-why-us{
+  padding: 20px 0;
+    .row.col-md-12{margin: 0}
+  .col-md-4{
+      .title-wrap{
+          width: 100%;
+//           // background: red;
+//           // height: 60%;
+//           // display: flex;justify-content: center;
+//           // align-items: center;text-align: center;
+          h3{margin-bottom: 5px}
+          p{width: 100%;}
+      }
+    }
+   .main-content{
+// //               // position: relative;
+// //               // background: pink;
+              .row{
+                  .col-md-6.first{
+                      margin-top: 0;
+                      // position: absolute;
+                      padding: 0;
+                
+                    
+                  }  
+                  .col-md-6.second{
+                      margin-top: 0px;
+                       padding: 0;
+                    }
+
+                  }
+// //               }
+            
+// //              }
+        
+        }//logistic-why-us
+
+  }
+  
+       
+
+}//end

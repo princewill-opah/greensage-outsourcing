@@ -1,0 +1,679 @@
+#logistics-bullets-section{
+    padding: 80px 0 80px;
+    .image{
+        position: relative;
+        // background: red;
+        img{
+            margin-left: 20px;
+            // display: block;margin: auto;
+            
+        }
+        &::before{
+            // .img::after {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 170px;
+    height: 170px;
+    content: " ";
+    // background-color: rgba(255, 255, 255, 0);
+    // background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='35' height='35' fill-opacity='0.78' fill='%23cccabe'/%3E%3C/svg%3E);
+   
+            // z-index: -4;
+    // transform: rotate(180deg);
+            //    content:'';
+            // background: url('asset/img/icon/bg-1.png');
+            //     width: 100px;
+            //     height: 150px;
+            //     background: red;
+            //     z-index: 577;
+            //     position: absolute;
+            //     bottom: -15px;
+        } 
+    }
+    .content-main{
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        height: 100%;
+        .content-inner{
+            h2{color:$color-3;line-height: 30px;
+            font-size: 25px; font-weight: 800;margin-bottom: 5px}
+        .plist-head{color:$color-3;line-height: 21px;opacity: .8; width: 100%;margin-bottom: 10px}  
+            .plist{
+                margin-bottom: 10px;
+                font-size: 14px;
+                display: flex;
+                text-align: baseline;
+                line-height: 16px;
+                // float: left;
+                i{color:$color-2;border:1px solid #eee;
+                    padding: 3px;display: block;width: 20px;height: 20px;min-width: 20px;
+                    margin-bottom: 3px;text-align: center;line-height: 15px;
+                    margin-right: 5px}
+                    span{}
+            }  
+        }
+     
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 900px) { 
+  #logistics-bullets-section{
+    padding: 35px 0 25px;
+    .image{
+        position: relative;
+        // background: red;
+        img{
+            margin-left: 20px;
+            // display: block;margin: auto;
+            
+        }
+        &::before{
+            // .img::after {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 170px;
+    height: 170px;
+    content: " ";
+    // background-color: rgba(255, 255, 255, 0);
+    // background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='35' height='35' fill-opacity='0.78' fill='%23cccabe'/%3E%3C/svg%3E);
+   
+            // z-index: -4;
+    // transform: rotate(180deg);
+            //    content:'';
+            // background: url('asset/img/icon/bg-1.png');
+            //     width: 100px;
+            //     height: 150px;
+            //     background: red;
+            //     z-index: 577;
+            //     position: absolute;
+            //     bottom: -15px;
+        } 
+    }
+    .content-main{
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        height: 100%;
+        .content-inner{
+            h2{color:$color-3;line-height: 30px;
+            font-size: 25px; font-weight: 800;margin-bottom: 5px}
+        .plist-head{color:$color-3;line-height: 21px;opacity: .8; width: 100%;margin-bottom: 10px}  
+            .plist{
+                margin-bottom: 3px;
+                font-size: 14px;
+                display: flex;
+                text-align: baseline;
+                line-height: 19px;
+                // float: left;
+                i{color:$color-2;border:1px solid #eee;
+                    padding: 3px;display: block;width: 30px;height: 30px;min-width: 30px;
+                    margin-bottom: 3px;text-align: center;line-height: 23px;
+                    margin-right: 5px}
+                    span{}
+            }  
+        }
+     
+    }
+  
+  }
+  
+  
+  }//end
+  
+  
+  @media screen and (max-width: 800px) { 
+  #logistics-bullets-section{
+    padding: 35px 0 25px;
+    .image{
+        position: relative;
+        // background: red;
+        img{
+            margin-left: 20px;
+            // display: block;margin: auto;
+            
+        }
+        &::before{
+            // .img::after {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 170px;
+    height: 170px;
+    content: " ";
+    // background-color: rgba(255, 255, 255, 0);
+    // background-image: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='35' height='35' fill-opacity='0.78' fill='%23cccabe'/%3E%3C/svg%3E);
+   
+            // z-index: -4;
+    // transform: rotate(180deg);
+            //    content:'';
+            // background: url('asset/img/icon/bg-1.png');
+            //     width: 100px;
+            //     height: 150px;
+            //     background: red;
+            //     z-index: 577;
+            //     position: absolute;
+            //     bottom: -15px;
+        } 
+    }
+    .content-main{
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        height: 100%;
+        .content-inner{
+            p.plist-head{line-height: 18px;}
+            h2{line-height: 20px;font-size: 20px}
+            .plist{
+                margin-bottom: 3px;
+                font-size: 14px;
+                display: flex;
+                text-align: baseline;
+                line-height: 15px;
+                // float: left;
+                i{color:$color-2;border:1px solid #eee;
+                    padding: 3px;display: block;width: 30px;height: 30px;min-width: 30px;
+                    margin-bottom: 3px;text-align: center;line-height: 23px;
+                    margin-right: 5px}
+                    span{}
+            }  
+        }
+     
+    }
+  
+  }
+  
+  
+  }//end
+  
+  @media screen and (max-width: 766px) { 
+  #logistics-bullets-section{
+    // padding: 35px 0 25px;
+    .image{
+        // position: relative;
+        // background: red;
+        img{
+            // margin-left: 20px;
+            display: block;margin: auto;
+            
+        }
+       
+    }
+    .content-main{
+        margin-bottom: 30px;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        height: 100%;
+        .content-inner{
+            p.plist-head{line-height: 18px;}
+            h2{line-height: 20px;font-size: 20px;text-align: center}
+            .plist{
+                margin-bottom: 3px;
+                font-size: 14px;
+                display: flex;
+                text-align: baseline;
+                line-height: 18px;
+                // float: left;
+                i{color:$color-2;border:1px solid #eee;
+                    padding: 3px;display: block;width: 30px;height: 30px;min-width: 30px;
+                    margin-bottom: 3px;text-align: center;line-height: 23px;
+                    margin-right: 5px}
+                    span{margin-top: 5px}
+            }  
+        }
+     
+    }
+  
+  }
+  
+  }//end
+
+ ///////
+ #how-it-works{
+    padding: 70px 0;
+    background: $bg-1;
+    &.hmo{ background: #fff}
+    .content-inner{
+        margin-bottom: 40px;
+        h2{color:$color-3;font-size: 30px;margin-bottom: 10px}
+        p{width:50%}
+        
+    }
+    .title{
+        margin-bottom: 20px;
+        h1{
+            display: inline-block;
+            position: relative;
+            color:$color-3;
+          font-size: 30px;
+            &::before{
+               content: '';
+               width:50%;
+                height: 4px;
+                background: $color-1;
+                position: absolute;
+                bottom: -8px;
+            }
+        }
+       
+        
+    }//title
+    
+    .how-it-work-content{
+        margin-bottom: 5px;
+        background: $color-3;
+        width: 95%;
+        padding: 15px 10px;
+        border-radius: 5px;
+        h5{color:#eee;margin-bottom: 5px}
+        p{color:$bg-1;opacity: .9;line-height: 18px;font-size: 14px}
+    }
+  
+  
+     .img{
+         margin-top: 70px;
+         img{}
+     }
+    
+  }
+  
+  @media screen and (max-width: 1000px) { 
+  #how-it-works{
+    // padding: 70px 0;
+    // background: $bg-1;
+    .title{
+        margin-bottom: 20px;
+        h1{
+            // display: inline-block;
+            // position: relative;
+          font-size: 25px;
+            &::before{
+               content: '';
+               width:30%;
+                // height: 4px;
+                // background: $color-1;
+                // position: absolute;
+                // bottom: -8px;
+            }
+        }
+       
+        
+    }//title
+    
+    .how-it-work-content{
+        margin-bottom: 5px;
+        // background: $color-3;
+        width: 100%;
+        padding: 15px 10px;
+        border-radius: 5px;
+        p{
+            // color:$bg-1;
+            // opacity: .9;
+            // line-height: 18px;
+            font-size: 14px
+        }
+    }
+  
+  
+  
+    
+  }
+  
+  }//end
+  
+  
+///
+
+@media screen and (max-width: 766px) { 
+    #how-it-works{
+      padding: 40px 0 40px;
+      // background: $bg-1;
+      .content-inner{
+          margin-bottom: 30px;
+          text-align: center;
+          h2{font-size: 24px;margin-bottom: 10px}
+          p{width:100%}
+          
+      }
+      .title{
+          margin-bottom: 20px;text-align: center;
+          h1{
+              // display: inline-block;
+              // position: relative;
+            // font-size: 25px;
+              
+              &::before{
+                  left: 50%;
+                  transform: translatex(-50%);
+              }
+          }
+         
+          
+      }//title
+      
+      .how-it-work-content{
+          margin-bottom: 5px;
+          // width: 100%;
+          // padding: 15px 10px;
+          // border-radius: 5px;
+          p{
+              
+              // font-size: 14px
+          }
+      }
+    
+        .img{
+            margin-top: 20px;
+            img{margin: auto;display: block}
+        }
+    
+      
+    }
+    
+    }//end
+    @media screen and (max-width: 566px) { 
+    #how-it-works{
+      padding: 30px 0 20px;
+      // background: $bg-1;
+      .title{
+          // margin-bottom: 20px;
+          h1{
+              // display: inline-block;
+              // position: relative;
+            font-size: 20px;
+              
+              // &::before{
+              //     left: 50%;
+              //     transform: translatex(-50%);
+              // }
+          }
+         
+          
+      }//title
+      
+      .how-it-work-content{
+          margin-bottom: 5px;
+          h5{text-align: center}
+          p{
+              text-align: center
+              // font-size: 14px
+          }
+      }
+    
+        // .img{margin-top: 20px;
+        //     img{margin: auto;display: block}
+        // }
+    
+      
+    }
+    
+    }//end
+ ///////
+
+  #logistic-why-us{
+    padding: 80px 0;
+    .col-md-4{
+        .title-wrap{
+            background: $color-3;
+            
+            height: 100%;
+            display: flex;justify-content: center;
+            align-items: center;text-align: center;
+            h3{color:$bg-1}
+        }
+    }
+    
+    .main-content{
+        position: relative;
+        // background: pink;
+        .row{
+            .col-md-6.first{
+                // position: absolute;
+                padding: 0;
+                .col-12{
+                      // box-shadow:$box-shadow;
+                     padding: 0;
+                    margin: 10px;
+                     display: flex;justify-content: center;
+                    align-items: center;
+                 .content{
+                     text-align: center;
+                 box-shadow:$box-shadow;
+                    width:79%;
+                     padding: 20px 20px;
+                        p{line-height: 23px;font-size: 16px;color:$color-3}
+                    }   
+                }
+                
+            }  
+            .col-md-6.second{
+                margin-top: 60px;
+                 padding: 0;
+                .col-12{
+                     padding: 0;
+                    margin: 10px;
+                    
+                     display: flex;justify-content: center;
+                    align-items: center;
+                 .content{
+                        text-align: center;
+                     box-shadow:$box-shadow;
+                    width:79%;
+                     padding: 20px 20px;
+                     p{line-height: 23px;font-size: 16px;color:$color-3}
+                    }   
+                }
+                
+            }
+        }
+        
+    }
+    
+  }//logistic-why-us
+  
+  
+  
+  @media screen and (max-width: 1000px) { 
+  #logistic-why-us{
+    padding: 50px 0;
+      .row.col-md-10.offset-1{
+          min-width: 100%;
+          // width: 100%;
+          margin: 0;
+      }
+    .col-md-4{
+        .title-wrap{
+            // background: $color-3;
+            
+            height: 60%;
+            // display: flex;justify-content: center;
+            // align-items: center;text-align: center;
+            // h3{color:$bg-1}
+        }
+    }
+    
+  //   .main-content{
+  //       // position: relative;
+  //       // background: pink;
+  //       .row{
+  //           .col-md-6.first{
+  //               // position: absolute;
+  //               padding: 0;
+  //               .col-12{
+  //                     // box-shadow:$box-shadow;
+  //                    padding: 0;
+  //                   margin: 10px;
+  //                    display: flex;justify-content: center;
+  //                   align-items: center;
+  //                .content{
+  //                    text-align: center;
+  //                box-shadow:$box-shadow;
+  //                   width:79%;
+  //                    padding: 20px 20px;
+  //                       p{line-height: 23px;font-size: 16px;color:$color-3}
+  //                   }   
+  //               }
+                
+  //           }  
+  //           .col-md-6.second{
+  //               margin-top: 60px;
+  //                padding: 0;
+  //               .col-12{
+  //                    padding: 0;
+  //                   margin: 10px;
+                    
+  //                    display: flex;justify-content: center;
+  //                   align-items: center;
+  //                .content{
+  //                       text-align: center;
+  //                    box-shadow:$box-shadow;
+  //                   width:79%;
+  //                    padding: 20px 20px;
+  //                    p{line-height: 23px;font-size: 16px;color:$color-3}
+  //                   }   
+  //               }
+                
+  //           }
+  //       }
+        
+  //   }
+    
+  }//logistic-why-us
+  
+  
+  
+  }//end
+  
+  @media screen and (max-width: 766px) { 
+  #logistic-why-us{
+    padding: 40px 0;
+      // .row.col-md-10.offset-1{
+      //     min-width: 100%;
+      //     // width: 100%;
+      //     margin: 0;
+      // }
+    .col-md-4{
+        .title-wrap{
+            // background: $color-3;
+            display: block;
+            background: transparent;
+            margin-bottom: 20px;
+           
+            // height: 60%;
+            // display: flex;justify-content: center;
+            // align-items: center;text-align: center;
+            h3{color: $color-3}
+        }
+    }
+    
+    .main-content{
+        // position: relative;
+        // background: pink;
+        .row{
+            .col-md-6.first{
+                // position: absolute;
+                padding: 0;
+                // .col-12{
+                //       // box-shadow:$box-shadow;
+                //      padding: 0;
+                //     margin: 10px;
+                //      display: flex;justify-content: center;
+                //     align-items: center;
+                //  .content{
+                //      text-align: center;
+                //  box-shadow:$box-shadow;
+                //     width:79%;
+                //      padding: 20px 20px;
+                //         p{line-height: 23px;font-size: 16px;color:$color-3}
+                //     }   
+                // }
+                
+            }  
+            .col-md-6.second{
+                margin-top: 0px;
+                 padding: 0;
+  //               .col-12{
+  //                    padding: 0;
+  //                   margin: 10px;
+                    
+  //                    display: flex;justify-content: center;
+  //                   align-items: center;
+  //                .content{
+  //                       text-align: center;
+  //                    box-shadow:$box-shadow;
+  //                   width:79%;
+  //                    padding: 20px 20px;
+  //                    p{line-height: 23px;font-size: 16px;color:$color-3}
+  //                   }   
+  //               }
+                
+            }
+        }
+        
+    }
+    
+  }//logistic-why-us
+  
+  
+  
+  }//end
+  
+  
+  @media screen and (max-width: 550px) { 
+  #logistic-why-us{
+    padding: 20px 0;
+   
+    .col-md-4{
+        .title-wrap{
+         
+            margin-bottom: 10px;
+           
+             h3{font-size: 20px}
+        }
+    }
+    
+    .main-content{
+        .row{
+            .col-md-6.first{
+                padding: 0;
+                .col-12{
+                      padding: 0;
+                    margin: 10px;
+                 .content{
+                    width:100%;
+                     padding: 10px 10px;
+                        p{line-height: 20px;
+                            font-size: 14px;}
+                    }   
+                }
+                
+            }  
+            .col-md-6.second{
+                margin-top: 0px;
+                 padding: 0;
+     .col-12{
+                      padding: 0;
+                    margin: 10px;
+                 .content{
+                    width:100%;
+                     padding: 10px 10px;
+                        p{line-height: 20px;
+                            font-size: 14px;}
+                    }   
+                }
+                
+            }
+        }
+        
+    }
+    
+  }//logistic-why-us
+  
+  
+  
+  }//end

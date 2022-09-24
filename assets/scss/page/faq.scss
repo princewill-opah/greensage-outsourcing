@@ -1,0 +1,640 @@
+@import "compass";
+
+
+// :root{
+//     --color-1:#5d7c4a;
+//     --head-0:#253b5c;
+//     --bg-3: rgba(235,239,245,0.6);
+// } 
+
+// $color1: #e16145;
+// $color2: #a1ca3a;
+// $color3: #ffffff;
+
+
+$color-1:#e16145;
+$color-2:#5d7c4a; 
+$color-3:rgb(37, 59, 92);; 
+$color-4:#0d1120; 
+$color-5:#bebfc2;
+
+$bg-0:#eff1fe;
+$bg-1: #f0f3f2;
+$bg-2:#0d1120;
+$bg-3: rgba(235,239,245,0.6);
+$bg-4: rgba(#539c24,0.09);
+
+$head-0:rgb(37, 59, 92);
+$head-1:#539c24;;
+$head-2:#0d1120;
+$head-3:#eee;
+
+$text-0:#4f4e4e;  
+$text-1:#888888;
+$text-2:#494949;
+$text-3:#9a9a9a;
+$text-a:#aaa; 
+$box-shadow: 0 8px 48px 0 rgba(0,0,0, 0.15);
+$box1: 0 8px 48px 0 rgba(0,0,0, 0.15);
+$box2:  1px 0px 20px rgba(0, 0, 0, 0.07);
+$transition: .9s ease all;
+$trans1: .9s ease all;
+
+$fm-unna: 'Unna', serif;
+$fm-nunito: 'Nunito Sans', sans-serif;
+
+$primary-font: 'Open Sans', sans-serif;
+
+// rem fallback - credits: http://zerosixthree.se/
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// antialiasing mode font rendering
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// breakpoints
+   
+$S:     480px;   
+$M:     768px;     
+$L:     1024px;     
+
+// media queries
+
+@mixin MQ($canvas) {
+  @if $canvas == S {
+   @media only screen and (min-width: $S) { @content; } 
+  }
+  @else if $canvas == M {
+   @media only screen and (min-width: $M) { @content; } 
+  }
+  @else if $canvas == L {
+   @media only screen and (min-width: $L) { @content; } 
+  }
+}
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+*, *::after, *::before {
+	@include box-sizing(border-box);
+}
+
+// *::after, *::before {
+// 	content: '';
+// }
+
+
+#faq-hero{
+   
+    background: $bg-1;
+    // height: vh;
+    width: 100%;
+    display: flex;
+    align-items: center;  
+           padding:50px 0 100px 0;  
+    position: relative;
+    .inner-banner-detail{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .inner-wrap{
+            width:70% 
+        }
+       
+        h2{color:$color-3;font-size: 40px;
+            word-spacing: -5px;line-height: 39px;
+            margin-bottom: 25px;
+            span{color:$color-3}
+        } 
+       a{color:$color-3;
+         
+           border-radius: 5px;font-weight: 700;
+           border: 2px solid $color-3;padding: 10px;
+           width:80%;
+           &:hover{
+               transition: all ease .9s;
+               background: $color-3;
+               color:$bg-0;
+           }
+        } 
+    }
+    .image{
+        img{ border-radius: 10% 0% 10% 0%;}
+       
+    }
+    
+    
+    // background: pink;
+    
+}
+
+@media screen and (max-width: 765px) {
+#faq-hero{
+   
+    // background: $bg-1;
+    // // height: vh;
+    // width: 100%;
+    // display: flex;
+    // align-items: center;  
+    //        padding:50px 0 100px 0;  
+    // position: relative;
+    .inner-banner-detail{
+        // height: 100%;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        .inner-wrap{
+            width:100% 
+        }
+       
+        h2{font-size: 30px;
+              width: 100%;
+            word-spacing: 0px;line-height: 30px;
+            margin-bottom: 25px;
+        } 
+//        a{color:$color-3;
+         
+//            border-radius: 5px;font-weight: 700;
+//            border: 2px solid $color-3;padding: 10px;
+//            width:80%;
+//            &:hover{
+//                transition: all ease .9s;
+//                background: $color-3;
+//                color:$bg-0;
+//            }
+//         } 
+    }
+    .image{
+        // img{ border-radius: 10% 0% 10% 0%;}
+       
+    }
+    
+    
+    // background: pink;
+    
+}
+}
+
+@media screen and (max-width: 500px) {
+#faq-hero{
+   padding: 30px;
+    // background: $bg-1;
+    // // height: vh;
+    // width: 100%;
+    // display: flex;
+    // align-items: center;  
+    //        padding:50px 0 100px 0;  
+    // position: relative;
+    .inner-banner-detail{
+        margin-top: 0;
+        .inner-wrap{
+            width:100% 
+        }
+       
+        h2{font-size: 20px;
+            line-height: 20px;
+            margin: 0;
+          
+            margin-bottom: 20px;
+        } 
+       a{
+           // color:$color-3;
+         
+           // border-radius: 5px;font-weight: 700;
+           // border: 2px solid $color-3;
+           padding: 8px;
+           // width:80%;
+           // &:hover{
+           //     transition: all ease .9s;
+           //     background: $color-3;
+           //     color:$bg-0;
+           // }
+        } 
+    }
+    
+    
+    
+    
+}
+}
+
+body {
+	font: {
+		size: 100%;
+		family: $primary-font; // variables inside partials > _variables.scss
+	}
+	
+
+	&::after {
+		/* overlay layer visible on small devices when the right panel slides in */
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba($color-3, .8);
+		visibility: hidden;
+		opacity: 0;
+		-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+		-moz-transition: opacity .3s 0s, visibility 0s .3s;
+		transition: opacity .3s 0s, visibility 0s .3s;
+	}
+
+	&.cd-overlay::after {
+		visibility: visible;
+		opacity: 1;
+		-webkit-transition: opacity .3s 0s, visibility 0s 0s;
+		-moz-transition: opacity .3s 0s, visibility 0s 0s;
+		transition: opacity .3s 0s, visibility 0s 0s;
+	}
+
+	@include MQ(M) {
+		&::after {
+			display: none;
+		}
+	}
+}
+
+a {
+	color: $color-2;
+	text-decoration: none;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+
+header {
+	position: relative;
+	height: 180px;
+	line-height: 180px;
+	text-align: center;
+	background-color: $color-2;
+
+	h1 {
+		color: $color-5;
+		@include font-smoothing;
+		@include font-size(20px);
+	}
+
+	@include MQ(L) {
+		height: 240px;
+		line-height: 240px;
+
+		h1 {
+			@include font-size(36px);
+			font-weight: 300;
+		}
+	}	
+}
+
+.cd-faq {
+	width: 90%;
+	max-width: $L; // breakpoints inside partials > _layout.scss
+	margin: 2em auto;
+	box-shadow: 0 1px 5px rgba(#000, .1);
+	@include clearfix;
+
+	@include MQ(M) {
+		position: relative;
+		margin: 4em auto;
+		box-shadow: none;
+	}
+}
+
+.cd-faq-categories {
+	a {
+		position: relative;
+		display: block;
+		overflow: hidden;
+		height: 50px;
+		line-height: 50px;
+		padding: 0 28px 0 16px;
+		background-color: $color-3;
+		@include font-smoothing;
+		color: $color-5;
+		white-space: nowrap;
+		border-bottom: 1px solid lighten($color-3, 3%);
+		text-overflow: ellipsis;
+
+		&::before, &::after {
+			/* plus icon on the right */
+			position: absolute;
+			top: 50%;
+			right: 16px;
+			display: inline-block;
+			height: 1px;
+			width: 10px;
+			background-color: lighten($color-3, 20%);
+		}
+
+		&::after {
+			@include transform(rotate(90deg));
+		}
+	}
+
+	li:last-child a {
+		border-bottom: none;
+	}
+
+	@include MQ(M) {
+		width: 20%;
+		float: left;
+		box-shadow: 0 1px 2px rgba(#000, .08);
+
+		a {
+			@include font-size(13px);
+			font-weight: 600;
+			padding-left: 24px;
+			padding: 0 24px;
+			@include transition(background .2s, padding .2s);
+
+			&::before, &::after {
+				display: none;
+			}
+
+			.no-touch &:hover {
+				background: lighten($color-3, 3%);
+			}
+		}
+
+		.no-js & {
+			width: 100%;
+			margin-bottom: 2em;
+		}
+	}
+
+	@include MQ(L) {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 200px;
+		z-index: 2;
+
+		a::before {
+			/* decorative rectangle on the left visible for the selected item */
+			display: block;
+			top: 0;
+			right: auto;
+			left: 0;
+			height: 100%;
+			width: 3px;
+			background-color: $color-2;
+			opacity: 0;
+			@include transition(opacity .2s);
+		}
+
+		.selected {
+			background: darken($color-3, 5%) !important;
+
+			&::before {
+				opacity: 1;
+			}
+		}
+
+		&.is-fixed {
+			/* top and left value assigned in jQuery */
+			position: fixed;
+		}
+
+		.no-js & {
+			position: relative;
+		}
+	}
+}
+
+.cd-faq-items {
+	position: fixed;
+	height: 100%;
+	width: 90%;
+	top: 0;
+	right: 0;
+	background: $color-5;
+	padding: 0 5% 1em;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	@include transform(translateZ(0) translateX(100%));
+	-webkit-transition: -webkit-transform .3s;
+	-moz-transition: -moz-transform .3s;
+	transition: transform .3s;
+
+	&.slide-in {
+		@include transform(translateZ(0) translateX(0%));
+	}
+
+	.no-js & {
+		position: static;
+		height: auto;
+		width: 100%;
+		@include transform(translateX(0));
+	}
+
+	@include MQ(M) {
+		position: static;
+		height: auto;
+		width: 78%;
+		float: right;
+		overflow: visible;
+		@include transform(translateZ(0) translateX(0));
+		padding: 0;
+		background: transparent;
+	}
+
+	@include MQ(L) {
+		float: none;
+		width: 100%;
+		padding-left: 220px;
+
+		.no-js & {
+			padding-left: 0;
+		}
+	}
+}
+
+.cd-close-panel {
+	position: fixed;
+	top: 5px;
+	right: -100%;
+	display: block;
+	height: 40px;
+	width: 40px;
+	overflow: hidden;
+	// text-indent: 100%;
+	white-space: nowrap;
+	z-index: 2;
+	/* Force Hardware Acceleration in WebKit */
+	@include transform(translateZ(0));
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	@include transition(right .4s);
+
+	&::before, &::after {
+		/* close icon in CSS */
+		position: absolute;
+		top: 16px;
+		left: 12px;
+		display: inline-block;
+		height: 3px;
+		width: 18px;
+		background: $color-4;
+	}
+
+	&::before {
+		@include transform(rotate(45deg));
+	}
+
+	&::after {
+		@include transform(rotate(-45deg));
+	}
+
+	&.move-left {
+		right: 5%;
+	}
+
+	@include MQ(M) {
+		display: none;
+	}
+}
+
+.cd-faq-group {
+	/* hide group not selected */
+	display: none;
+
+	&.selected {
+		display: block;
+	}
+
+	.cd-faq-title {
+		background: transparent;
+		box-shadow: none;
+		margin: 1em 0;
+
+		.no-touch &:hover {
+			box-shadow: none;
+		}
+
+		h2 {
+			text-transform: uppercase;
+			@include font-size(12px);
+			font-weight: 700;
+			color: darken($color-3, 20%);
+		}
+	}
+
+	.no-js & {
+		display: block;
+	}
+
+	@include MQ(M) {
+		/* all groups visible */
+		display: block;
+
+		> li {
+			background:#eee;
+            box-shadow:$box-shadow;
+			margin-bottom: 6px;	
+			box-shadow: 0 1px 2px rgba(#000, .08);
+			@include transition(box-shadow .2s);
+
+			.no-touch &:hover {
+				box-shadow: 0 1px 10px rgba($color-4, .3);
+			}
+		}
+
+		.cd-faq-title {
+			margin: 2em 0 1em;
+		}
+
+		&:first-child .cd-faq-title {
+			margin-top: 0;
+		}
+	}
+}
+
+.cd-faq-trigger {
+	position: relative;
+	display: block;
+	margin: 1.6em 0 .4em;
+	line-height: 1.2;
+
+	@include MQ(M) {
+		@include font-size(20px);
+		font-weight: 300;
+		margin: 0;
+		padding: 15px 72px 15px 24px;
+
+		&::before, &::after {
+			/* arrow icon on the right */
+			position: absolute;
+			right: 24px;
+			top: 50%;
+			height: 2px;
+			width: 13px;
+			background: lighten($color-2, 20%);
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			@include transition-property(transform);
+			@include transition-duration(.2s);
+		}
+
+		&::before {
+			@include transform(rotate(45deg));
+			right: 32px;
+		}
+
+		&::after {
+			@include transform(rotate(-45deg));
+		}
+
+		.content-visible &::before {
+			@include transform(rotate(-45deg));
+		}
+
+		.content-visible &::after {
+			@include transform(rotate(45deg));
+		}
+	}
+}
+
+.cd-faq-content {
+
+	p {
+		@include font-size(14px);
+		line-height: 1.4;
+		color: $color-4;
+	}
+
+	@include MQ(M) {
+		display: none;
+		padding: 0 24px 30px;
+
+		p {
+			line-height: 1.6
+		}
+
+		.no-js & {
+			display: block;
+		}
+	}
+}
